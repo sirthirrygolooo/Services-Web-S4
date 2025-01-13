@@ -19,4 +19,8 @@ fs.readdirSync(__dirname)
         let model = require(path.join(__dirname, file))(sequelize);
         db[model.name] = model;
     })
+db.sequelize = sequelize;
+db.Sequelize = Sequelize;
+
+module.exports = db;
 
