@@ -1,0 +1,3 @@
+npm install express pg sequelize body-parser passport passport-local
+npm install dotenv bcrypt express-session express-handlebars
+npm install --save-dev nodemon
